@@ -1,0 +1,20 @@
+/* "Cancle" Btn hover */
+@media screen and (min-width: 768px) {
+  .formBtn:hover span:nth-child(1) {
+    opacity: 0;
+  }
+  .formBtn:hover span:nth-child(2) {
+    opacity: 1;
+  }
+
+  .formBtn span:nth-child(1) {
+    transition: all 0.2s ease-in;
+    padding: 0 50px;
+  }
+
+  .formBtn span:nth-child(2) {
+    transition: all 0.2s ease-in;
+    position: absolute;
+    opacity: 0;
+  }
+}
